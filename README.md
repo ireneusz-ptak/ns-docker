@@ -6,7 +6,7 @@ Docker-compose configuration for setting up the Nightscout server along with Mon
 
 1. Clone this repository: `git clone https://github.com/ireneusz-ptak/ns-docker.git .`
 
-1. Change the configuration filename: `mv .env.template .env`
+1. Change the configuration filename: `cp .env.template .env`
 
 1. Set domain name, API secret and/or other setting in .env config file
 
