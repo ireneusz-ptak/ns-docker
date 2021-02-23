@@ -11,7 +11,7 @@ services:
       - ./data/mongo:/data/db
     
   ns:
-    image: pablonczyk/docker4nightscout
+    image: nightscout/cgm-remote-monitor
     container_name: ns
     restart: unless-stopped
     environment:
